@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+}
+
+.centered {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    margin: 1rem 0;
+}
+
+img {
+    width: 160px;
+    height: 100px;
+    display: inline-block;
+}
+
+header h2 {
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+header > img, header > h2 {
+    vertical-align: middle;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+form input {
+    padding: 0.3rem 0.5rem;
+}
+
+form button {
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 1rem 0;
+}
+
+#mails-numb {
+    background: orange;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.mails {
+    margin: 1rem 0;
+}
+
+.mail {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.mail > input, .mail > span {
+    vertical-align: middle;
+}
+
+#checked {
+    background: lightgray;
+}
+
+.checkbox {
+    margin: auto 0.5rem;
+}
+
+.oggetto {
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.star {
+    margin-right: 1rem;
+}
+
+.oggetto:hover .star {
+    color: yellow;
+}
+
+.contenuto {
+    display: inline-block;
+    width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p {
+    text-align: center;
+    margin: 1rem 0;
+}
